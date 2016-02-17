@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB6139341C74743C0081DA91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6139331C74743C0081DA91 /* AppDelegate.swift */; };
+		EB6139361C74743C0081DA91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6139351C74743C0081DA91 /* ViewController.swift */; };
+		EB6139391C74743C0081DA91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6139371C74743C0081DA91 /* Main.storyboard */; };
+		EB61393B1C74743C0081DA91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB61393A1C74743C0081DA91 /* Assets.xcassets */; };
+		EB61393E1C74743C0081DA91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB61393C1C74743C0081DA91 /* LaunchScreen.storyboard */; };
+		EB6139491C74743C0081DA91 /* ViewControllerLiftCircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6139481C74743C0081DA91 /* ViewControllerLiftCircleTests.swift */; };
+		EB6139541C74743C0081DA91 /* ViewControllerLiftCircleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6139531C74743C0081DA91 /* ViewControllerLiftCircleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB6139451C74743C0081DA91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6139281C74743C0081DA91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB61392F1C74743C0081DA91;
+			remoteInfo = ViewControllerLiftCircle;
+		};
+		EB6139501C74743C0081DA91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6139281C74743C0081DA91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB61392F1C74743C0081DA91;
+			remoteInfo = ViewControllerLiftCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB6139301C74743C0081DA91 /* ViewControllerLiftCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerLiftCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6139331C74743C0081DA91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB6139351C74743C0081DA91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB6139381C74743C0081DA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB61393A1C74743C0081DA91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB61393D1C74743C0081DA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB61393F1C74743C0081DA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB6139441C74743C0081DA91 /* ViewControllerLiftCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerLiftCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6139481C74743C0081DA91 /* ViewControllerLiftCircleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLiftCircleTests.swift; sourceTree = "<group>"; };
+		EB61394A1C74743C0081DA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB61394F1C74743C0081DA91 /* ViewControllerLiftCircleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerLiftCircleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6139531C74743C0081DA91 /* ViewControllerLiftCircleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLiftCircleUITests.swift; sourceTree = "<group>"; };
+		EB6139551C74743C0081DA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB61392D1C74743C0081DA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6139411C74743C0081DA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB61394C1C74743C0081DA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB6139271C74743C0081DA91 = {
+			isa = PBXGroup;
+			children = (
+				EB6139321C74743C0081DA91 /* ViewControllerLiftCircle */,
+				EB6139471C74743C0081DA91 /* ViewControllerLiftCircleTests */,
+				EB6139521C74743C0081DA91 /* ViewControllerLiftCircleUITests */,
+				EB6139311C74743C0081DA91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB6139311C74743C0081DA91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB6139301C74743C0081DA91 /* ViewControllerLiftCircle.app */,
+				EB6139441C74743C0081DA91 /* ViewControllerLiftCircleTests.xctest */,
+				EB61394F1C74743C0081DA91 /* ViewControllerLiftCircleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB6139321C74743C0081DA91 /* ViewControllerLiftCircle */ = {
+			isa = PBXGroup;
+			children = (
+				EB6139331C74743C0081DA91 /* AppDelegate.swift */,
+				EB6139351C74743C0081DA91 /* ViewController.swift */,
+				EB6139371C74743C0081DA91 /* Main.storyboard */,
+				EB61393A1C74743C0081DA91 /* Assets.xcassets */,
+				EB61393C1C74743C0081DA91 /* LaunchScreen.storyboard */,
+				EB61393F1C74743C0081DA91 /* Info.plist */,
+			);
+			path = ViewControllerLiftCircle;
+			sourceTree = "<group>";
+		};
+		EB6139471C74743C0081DA91 /* ViewControllerLiftCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB6139481C74743C0081DA91 /* ViewControllerLiftCircleTests.swift */,
+				EB61394A1C74743C0081DA91 /* Info.plist */,
+			);
+			path = ViewControllerLiftCircleTests;
+			sourceTree = "<group>";
+		};
+		EB6139521C74743C0081DA91 /* ViewControllerLiftCircleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB6139531C74743C0081DA91 /* ViewControllerLiftCircleUITests.swift */,
+				EB6139551C74743C0081DA91 /* Info.plist */,
+			);
+			path = ViewControllerLiftCircleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB61392F1C74743C0081DA91 /* ViewControllerLiftCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6139581C74743C0081DA91 /* Build configuration list for PBXNativeTarget "ViewControllerLiftCircle" */;
+			buildPhases = (
+				EB61392C1C74743C0081DA91 /* Sources */,
+				EB61392D1C74743C0081DA91 /* Frameworks */,
+				EB61392E1C74743C0081DA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewControllerLiftCircle;
+			productName = ViewControllerLiftCircle;
+			productReference = EB6139301C74743C0081DA91 /* ViewControllerLiftCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB6139431C74743C0081DA91 /* ViewControllerLiftCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB61395B1C74743C0081DA91 /* Build configuration list for PBXNativeTarget "ViewControllerLiftCircleTests" */;
+			buildPhases = (
+				EB6139401C74743C0081DA91 /* Sources */,
+				EB6139411C74743C0081DA91 /* Frameworks */,
+				EB6139421C74743C0081DA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6139461C74743C0081DA91 /* PBXTargetDependency */,
+			);
+			name = ViewControllerLiftCircleTests;
+			productName = ViewControllerLiftCircleTests;
+			productReference = EB6139441C74743C0081DA91 /* ViewControllerLiftCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB61394E1C74743C0081DA91 /* ViewControllerLiftCircleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB61395E1C74743C0081DA91 /* Build configuration list for PBXNativeTarget "ViewControllerLiftCircleUITests" */;
+			buildPhases = (
+				EB61394B1C74743C0081DA91 /* Sources */,
+				EB61394C1C74743C0081DA91 /* Frameworks */,
+				EB61394D1C74743C0081DA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6139511C74743C0081DA91 /* PBXTargetDependency */,
+			);
+			name = ViewControllerLiftCircleUITests;
+			productName = ViewControllerLiftCircleUITests;
+			productReference = EB61394F1C74743C0081DA91 /* ViewControllerLiftCircleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB6139281C74743C0081DA91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LeeWong;
+				TargetAttributes = {
+					EB61392F1C74743C0081DA91 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EB6139431C74743C0081DA91 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EB61392F1C74743C0081DA91;
+					};
+					EB61394E1C74743C0081DA91 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EB61392F1C74743C0081DA91;
+					};
+				};
+			};
+			buildConfigurationList = EB61392B1C74743C0081DA91 /* Build configuration list for PBXProject "ViewControllerLiftCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB6139271C74743C0081DA91;
+			productRefGroup = EB6139311C74743C0081DA91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB61392F1C74743C0081DA91 /* ViewControllerLiftCircle */,
+				EB6139431C74743C0081DA91 /* ViewControllerLiftCircleTests */,
+				EB61394E1C74743C0081DA91 /* ViewControllerLiftCircleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB61392E1C74743C0081DA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB61393E1C74743C0081DA91 /* LaunchScreen.storyboard in Resources */,
+				EB61393B1C74743C0081DA91 /* Assets.xcassets in Resources */,
+				EB6139391C74743C0081DA91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6139421C74743C0081DA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB61394D1C74743C0081DA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB61392C1C74743C0081DA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6139361C74743C0081DA91 /* ViewController.swift in Sources */,
+				EB6139341C74743C0081DA91 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6139401C74743C0081DA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6139491C74743C0081DA91 /* ViewControllerLiftCircleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB61394B1C74743C0081DA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6139541C74743C0081DA91 /* ViewControllerLiftCircleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB6139461C74743C0081DA91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB61392F1C74743C0081DA91 /* ViewControllerLiftCircle */;
+			targetProxy = EB6139451C74743C0081DA91 /* PBXContainerItemProxy */;
+		};
+		EB6139511C74743C0081DA91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB61392F1C74743C0081DA91 /* ViewControllerLiftCircle */;
+			targetProxy = EB6139501C74743C0081DA91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB6139371C74743C0081DA91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB6139381C74743C0081DA91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB61393C1C74743C0081DA91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB61393D1C74743C0081DA91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB6139561C74743C0081DA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB6139571C74743C0081DA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB6139591C74743C0081DA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViewControllerLiftCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meishubao.ViewControllerLiftCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB61395A1C74743C0081DA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViewControllerLiftCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meishubao.ViewControllerLiftCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB61395C1C74743C0081DA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ViewControllerLiftCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meishubao.ViewControllerLiftCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewControllerLiftCircle.app/ViewControllerLiftCircle";
+			};
+			name = Debug;
+		};
+		EB61395D1C74743C0081DA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ViewControllerLiftCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meishubao.ViewControllerLiftCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewControllerLiftCircle.app/ViewControllerLiftCircle";
+			};
+			name = Release;
+		};
+		EB61395F1C74743C0081DA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ViewControllerLiftCircleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meishubao.ViewControllerLiftCircleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ViewControllerLiftCircle;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EB6139601C74743C0081DA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ViewControllerLiftCircleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meishubao.ViewControllerLiftCircleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ViewControllerLiftCircle;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB61392B1C74743C0081DA91 /* Build configuration list for PBXProject "ViewControllerLiftCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6139561C74743C0081DA91 /* Debug */,
+				EB6139571C74743C0081DA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6139581C74743C0081DA91 /* Build configuration list for PBXNativeTarget "ViewControllerLiftCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6139591C74743C0081DA91 /* Debug */,
+				EB61395A1C74743C0081DA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB61395B1C74743C0081DA91 /* Build configuration list for PBXNativeTarget "ViewControllerLiftCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB61395C1C74743C0081DA91 /* Debug */,
+				EB61395D1C74743C0081DA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB61395E1C74743C0081DA91 /* Build configuration list for PBXNativeTarget "ViewControllerLiftCircleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB61395F1C74743C0081DA91 /* Debug */,
+				EB6139601C74743C0081DA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB6139281C74743C0081DA91 /* Project object */;
+}
