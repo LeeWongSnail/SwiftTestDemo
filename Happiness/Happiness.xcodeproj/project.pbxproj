@@ -14,6 +14,7 @@
 		EB6138C51C7303D00081DA91 /* HappinessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6138C41C7303D00081DA91 /* HappinessTests.swift */; };
 		EB6138D01C7303D00081DA91 /* HappinessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6138CF1C7303D00081DA91 /* HappinessUITests.swift */; };
 		EB6138DE1C7304B00081DA91 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6138DD1C7304B00081DA91 /* FaceView.swift */; };
+		EB6138E21C7410840081DA91 /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6138E11C7410840081DA91 /* HappinessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EB6138CF1C7303D00081DA91 /* HappinessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappinessUITests.swift; sourceTree = "<group>"; };
 		EB6138D11C7303D00081DA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB6138DD1C7304B00081DA91 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		EB6138E11C7410840081DA91 /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappinessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EB6138B81C7303D00081DA91 /* LaunchScreen.storyboard */,
 				EB6138BB1C7303D00081DA91 /* Info.plist */,
 				EB6138DD1C7304B00081DA91 /* FaceView.swift */,
+				EB6138E11C7410840081DA91 /* HappinessViewController.swift */,
 			);
 			path = Happiness;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB6138B01C7303CF0081DA91 /* AppDelegate.swift in Sources */,
+				EB6138E21C7410840081DA91 /* HappinessViewController.swift in Sources */,
 				EB6138DE1C7304B00081DA91 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
