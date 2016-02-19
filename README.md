@@ -9,3 +9,12 @@ SwiftTest-MVC:使用MVC设计模式，同时对于运算做了封装
 Happiness : 使用贝塞尔曲线画出了一个笑脸
 
 Psychologist : Multi MVC 简单的使用 SplitViewController UINavigationController Popover
+
+ViewControllerLifeCycle: 控制器的生命周期
+
+AutoLayout : 简单的AutoLayout布局介绍
+
+Cassini: UIScrollView的简单介绍
+
+
+`这是课程中所敲的所有代码 关于UITableView中的代码暂无！！`
